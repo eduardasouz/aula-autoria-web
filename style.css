@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b41b6f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Estilos para a seção "Quem sou eu?" */
+section {
+    padding: 20px;
+}
+
+/* Estilos para a seção de curiosidades */
+#curiosidades {
+    background-color: #F0F0F0;
+    padding: 20px;
+}
+
+/* Estilos para a tabela de histórico escolar */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c21c6f;
+    color: white;
+}
+
+/* Estilos para a seção de habilidades */
+#habilidades {
+    padding: 20px;
+    background-color: #F0F0F0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #c21c7d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
